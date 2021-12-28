@@ -4,7 +4,7 @@ set_time_limit(130);
 
 require(__DIR__ . '/../src/autoloader.php');
 
-$solver = new \TwoCaptcha\TwoCaptcha('YOUR_API_KEY');
+$solver = new \TwoCaptcha\TwoCaptcha('c465a647d34f18a45db5dccf683e9b63');
 
 try {
     $result = $solver->rotate([
